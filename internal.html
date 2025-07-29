@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="date"] {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        input[type="checkbox"] {
+            margin-top: 5px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 5px;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <Label>Name:</Label><br>
+    <input type="text"><br>
+    <label>Password:</label>    <br>
+    <input type="password"><br>
+    <label>Gender:</label><br>
+    <input type="date">
+    <br>
+    <input type="checkbox" id="male">
+    <label for="male">M</label>
+    <br>
+    <input type="checkbox" id="female">
+    <label for="female">F</label>
+    <br>
+    <input type="submit">
+</form>
+</body>
+</html>
